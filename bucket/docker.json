@@ -1,0 +1,30 @@
+{
+	"homepage": "http://docker.com/",
+	"version": "1.6.0",
+	"architecture": {
+		"64bit": {
+			"url": [
+				"https://get.docker.com/builds/Windows/x86_64/docker-1.6.0.exe",
+				"https://github.com/docker/machine/releases/download/v0.2.0/docker-machine_windows-amd64.exe#/docker-machine.exe"
+			],
+			"hash": [
+				"md5:67a482e2be45c687ac786a73576e028a",
+				"d17231148e0f332a659d6b861d0f8b251c53abdbeebca54592d893871abc5919"
+			]
+		},
+		"32bit": {
+			"url": [
+				"https://get.docker.com/builds/Windows/i386/docker-1.6.0.exe",
+				"https://github.com/docker/machine/releases/download/v0.2.0/docker-machine_windows-386.exe#/docker-machine.exe"
+			],
+			"hash": [
+				"md5:ecf9d6db32597c76ae8f8149aeec6662",
+				"242a989913029c90135e4b716521dbd5ce92d2b9a0bb5c12bce3cdcd6198ff7d"
+			]
+		}
+	},
+  "bin": [
+    ["docker-1.6.0.exe", "docker"],
+		"docker-machine.exe"
+  ]
+}
